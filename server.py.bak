@@ -56,7 +56,7 @@ def submit_form():
             message = 'Something went wrong, I will check :('
         return render_template('/thank_you.html',message=message)
     else:
-        return 'Theres something wrong!'
+        return 'Theres something wrong'
 
 
 
